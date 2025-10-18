@@ -1,0 +1,6 @@
+folds: 5
+train_min: 500 #minimum training points before the first validation
+step: 60 #validation window in days
+horizon: 1 #forecasting one step ahead
+
+#cv folds, horizon

@@ -1,0 +1,10 @@
+lookback: 60
+epochs: 60
+batch: 32
+layers: [64,32]
+lr: 0.001
+droput: 0.2
+batch_size: 64
+target: "return_id" #predicting next day log returns
+
+#lstm hyperparams

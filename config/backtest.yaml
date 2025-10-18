@@ -1,0 +1,9 @@
+policy: "threshold"
+threshold: 0.0
+cost_bps: 5
+hold_period: 1
+intial_equity: 1.0
+risk_free_rate: 0.0
+allow_short: true
+
+#backtesting for signals, policies and costs

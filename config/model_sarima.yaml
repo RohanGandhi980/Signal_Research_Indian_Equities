@@ -1,0 +1,6 @@
+order: [1,1,1]
+seasonal_order: [0,1,1,5] #weekly seasonality on daily bars
+use_exog: true
+maxiter: 200
+
+#sarima hyperparameters
