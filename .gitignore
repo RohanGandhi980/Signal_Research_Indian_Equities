@@ -1,12 +1,54 @@
+# --- ENVIRONMENTS & DEPENDENCIES ---
 .venv/
+env/
+venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.log
-models_store/
-data_store/
+
+# --- OS & EDITOR JUNK ---
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
 .ipynb_checkpoints/
+
+# --- MODEL & DATA DIRECTORIES ---
 data/models/
 data/processed/
-__pycache__/
-.venv/
+data/raw/
+data/interim/
+models_store/
+data_store/
+
+# --- EXPERIMENT OUTPUTS ---
+*.pkl
+*.h5
+*.keras
+*.joblib
+*.csv
+*.parquet
+*.npy
+*.npz
+
+# --- CACHE & TEMP FILES ---
+*.tmp
+*.bak
+*.swp
+*.lock
+
+# --- PROJECT BUILD / DIST ---
+dist/
+build/
+*.egg-info/
+
+# --- TESTS / BENCHMARKS ---
+coverage/
+pytest_cache/
+__results__/
+
+# --- ENVIRONMENT CONFIG ---
+.env
+.env.*
