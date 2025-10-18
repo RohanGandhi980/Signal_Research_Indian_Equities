@@ -6,3 +6,7 @@ models_store/
 data_store/
 .DS_Store
 .ipynb_checkpoints/
+data/models/
+data/processed/
+__pycache__/
+.venv/
